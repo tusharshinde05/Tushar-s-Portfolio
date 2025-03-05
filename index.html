@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tushar's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- Welcome Page -->
+    <div id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi, I'm Tushar Sanjeev Shinde – A passionate AI & ML enthusiast.</p>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showSection('about')">About Me</a></li>
+                <li><a href="#" onclick="showSection('projects')">Projects</a></li>
+                <li><a href="#" onclick="showSection('skills')">Skills & Certifications</a></li>
+                <li><a href="#" onclick="showSection('contact')">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- About Me Section -->
+    <section id="about" class="hidden">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="your_photo.jpg" alt="Tushar's Photo" class="profile-pic">
+            <p>I am a Computer Science and Engineering student specializing in AI & ML.I am looking for a dynamic role in a progressive company to apply my expertise in AI, ML, DL, Computer Vision, Image Processing, Python, and UI/UX, driving innovation, organizational growth, and personal career advancement.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="hidden">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Text to Image Generation</h3>
+            <p>Developed a Stable Diffusion-based text-to-image generator using Hugging Face API, optimized for CPU/GPU (CUDA) acceleration.</p>
+        </div>
+        <div class="project">
+            <h3>Code Analyzer </h3>
+            <p>AI-driven analysis tool using Gemini 1.5 Flash to detect vulnerabilities, optimize code, and translate languages.</p>
+        </div>
+        <div class="project">
+            <h3>Creative Artifacts Website </h3>
+            <p>Designed an E-commerce website using Django, PostgreSQL, and AWS to sell homemade and tribal artworks.</p>
+        </div>
+        <div class="project">
+            <h3>Emotion Detector </h3>
+            <p>Developed a real-time emotion recognition application using OpenCV and Python with a Tkinter-based UI.</p>
+        </div>
+    </section>
+
+    <!-- Skills & Certifications Section -->
+    <section id="skills" class="hidden">
+        <h2>Skills & Certifications</h2>
+        <div class="skills-grid">
+            <div class="skill-box">
+                <h3>Skills</h3>
+                <ul>
+                    <li>Artificial Intelligence</li>
+                    <li>Machine Learning Algorithms</li>
+                    <li>Deep Learning (TensorFlow, Keras)</li>
+                    <li>Programming (Python, MATLAB, R)</li>
+                    <li>Natural Language Processing</li>
+                    <li>Back-End Development (Flask)</li>
+                    <li>Front-End (HTML, CSS)</li>
+                    <li>UI Development (Tkinter)</li>
+                    <li>Cloud Computing (Kubernetes, Azure)</li>
+                </ul>
+            </div>
+            <div class="skill-box">
+                <h3>Certifications</h3>
+                <ul>
+                    <li>Azure AI Fundamentals</li>
+                    <li>Azure AI Engineer Associate</li>
+                    <li>Python Programming - Futurense Technologies</li>
+                    <li>Project Management</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="hidden">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:tusharjsshinde@gmail.com">tusharjsshinde@gmail.com</a></p>
+        <p>Phone: +91 9480572645</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/tushar-shinde-570181236/" target="_blank">Tushar's LinkedIn</a></p>
+    </section>
+
+</body>
+</html>
